@@ -26,13 +26,18 @@ The project "X" aims to visualise the gender dilemma faced by robots, with a bea
 ## Iterative Development Blog
 #### Week01&02&03
 After the tutorial with Hadeel, I decided on the direction of my research on gender in robotics. I spent the first three weeks reading papers on this topic, trying to find my own research direction by pulling from existing research directions. I found 10 respondents and invited them to fill in my questionnaire.
+<h3 align="center">
 <img width="665" alt="截屏2022-11-21 10 58 19" src="https://user-images.githubusercontent.com/91974159/203123618-2fd27c46-a817-4984-b1c5-b54bf42bfee9.png" width="50%" height="50%">   
+</h3>
                     
 After a lot of brainstorming and trial and error, I finally decided to focus on the "balance" of the device, and Hadeel recommended the PID algorithm and the accelerometer. That is how most robots self-balance.
 
 #### Week04&05.     
 During these two weeks I started writing the code and built the first simple Model One. With constant debugging it worked successfully.        
-![IMG_7215](https://user-images.githubusercontent.com/91974159/203124831-f42bdf25-08fb-4203-bd34-71feb068f60a.jpg)
+<h3 align="center">
+![IMG_7215](https://user-images.githubusercontent.com/91974159/203124831-f42bdf25-08fb-4203-bd34-71feb068f60a.jpg)width="50%" height="50%"
+</h3>
+                 
 The interaction method bothered me. At first I envisaged a solution with a servo motor picking the ball on the beam to break the balance itself. The user could control this by sliding a resistor. But the completed circuit didn't work as perfectly as I thought it would. I started thinking about whether I could develop from the existing code to find out what was possible.                  
 I planned to add another ultrasonic sensor, which would use the distance it sensed when an object was placed in front of it to prompt the servo motor to move until the distance between the ball on the beam and the ultrasonic sensor was also maintained at the same level before the motor would stop moving. If the user flicks the ball directly by hand, the ball will struggle to regain its balance, just as it did with the previous Model One.    
 https://user-images.githubusercontent.com/91974159/203125807-27fbf417-9a35-4805-841d-7684c1c4724d.mp4
