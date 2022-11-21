@@ -19,6 +19,7 @@ The scales of robotic gender do not exist, But it has done its best to maintain 
 The project "X" aims to visualise the gender dilemma faced by robots, with a beam, a ball and a machine-generated digital jellyfish as the centre of vision.
 1. When the user approaches the installation, LEDs will light up.           
 2. A video on screen plays a photo of the generated electronic jellyfish and subtitles guide the user in guessing their gender. The leftmost side is male, the rightmost is female and the position of the ball will be taken as the user's answer. The user can move the pieces to influence the servo’s angle at so that the ball stay at their ideal position. Of course the result may be unsatisfactory.               
-3. When the angle of the beam reaches a certain value, the video will be distorted and glitched.          
-**Watch the Video**                              
+3. When the angle of the beam reaches a certain value, the video will be distorted and glitched.   
+                              
+*Watch the Video*                              
 * [![Watch the Video](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg)](https://youtu.be/ViRgSTNtf5M)     
