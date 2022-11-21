@@ -5,8 +5,7 @@
 # “X”-MSc-Advanced-Project      
 FAN SHU 20011098          
           
-🔗：            
-* [Github for Advanced Project](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project)
+🔗：* [Github for Advanced Project](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project)
                                                  
 ## Concept
 Inevitably, in any scenario, robots, or artificial intelligence, have gradually become integrated into human society. Robotics experts consider some attributes, such as robot gender. Robots have no gender - they are metal, plastic and silicon, and are full of "1s" and "0s". But humans have always been able to make their judgements by cues such as appearance, colour, personality and voice. The problem for robot designers today is to create fairer gender norms that challenge current gender stereotypes. Better gender norms in robot society will also feed back into human society.
@@ -23,3 +22,6 @@ The project "X" aims to visualise the gender dilemma faced by robots, with a bea
                               
 *Watch the Video*                              
 * [![Watch the Video](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg)](https://youtu.be/ViRgSTNtf5M)     
+                     
+## Iterative Development Blog
+### Week01
