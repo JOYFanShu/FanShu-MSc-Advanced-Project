@@ -35,9 +35,12 @@ After a lot of brainstorming and trial and error, I finally decided to focus on 
 #### Week04&05.     
 During these two weeks I started writing the code and built the first simple Model One. With constant debugging it worked successfully.        
 <h3 align="center">
-![IMG_7215](https://user-images.githubusercontent.com/91974159/203124831-f42bdf25-08fb-4203-bd34-71feb068f60a.jpg)
+ <img src="https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Physical%20model/IMG_7215.jpg" width="50%" height="50%"> 
 </h3>
-                 
+<h3 align="center">
+ <img src="https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Physical%20model/IMG_7537.jpg" width="50%" height="50%"> 
+</h3>
+                                  
 The interaction method bothered me. At first I envisaged a solution with a servo motor picking the ball on the beam to break the balance itself. The user could control this by sliding a resistor. But the completed circuit didn't work as perfectly as I thought it would. I started thinking about whether I could develop from the existing code to find out what was possible.                  
 I planned to add another ultrasonic sensor, which would use the distance it sensed when an object was placed in front of it to prompt the servo motor to move until the distance between the ball on the beam and the ultrasonic sensor was also maintained at the same level before the motor would stop moving. If the user flicks the ball directly by hand, the ball will struggle to regain its balance, just as it did with the previous Model One.   
 
@@ -46,24 +49,38 @@ https://user-images.githubusercontent.com/91974159/203129030-f596dd86-e5fa-42dc-
  
                              
 #### Week06&07 
-为了增强用户的五官感受，我决心为装置制作一些画面。我并不想将机器人已特别直接的方式呈现。因此决定采用机器生成的电子水母作为代替。采用style gan3生成的不存在的水母视频.
+In order to enhance the sensation of the user's five senses, I was determined to create some graphics for the installation. I did not want to present the robot in a particularly straightforward way already. Therefore it was decided to use a machine-generated digital jellyfish instead. Video of a non-existent jellyfish generated using style gan3.
 
 
 https://user-images.githubusercontent.com/91974159/203140845-792b3bac-99db-4006-9614-24828aaffb74.mp4
 
 
-整个装置的完整交互概念开始形成了。视频字幕将会引导参与者对电子水母的性别进行猜测。最左侧为公，最右侧为母，球停留的位置将会被视为用户的答案，用户可以通过移动装置前方的棋子来影梁倾斜的角度，以使得球停在他们理想的位置。当然结果可能是不尽如人意的。     
-部分用户在尝试之后，希望可以在视频与实体装置之间能有一个互动的反应，故而我运用touch designer作为桥梁，通过黏贴在水平梁结构上的水平仪提供串口数据，用此数据驱动视频发生扭曲和像素化。
+
+The complete interactive concept of the entire installation is beginning to take shape. Subtitles guide the user in guessing their gender. The leftmost side is male, the rightmost is female and the position of the ball will be taken as the user's answer. The user can move the pieces to influence the servo’s angle at so that the ball stay at their ideal position. Of course the result may be unsatisfactory.
+Some users wanted an interactive response between the video and the physical device after trying it out, so I used touch designer as a bridge to provide serial data via an absolute orientation sensor glued to the horizontal beam structure, which was used to drive the distortion and pixelation of the video.
+
+
+https://user-images.githubusercontent.com/91974159/203141936-3ee1fca4-9795-4988-a728-721c3108ac62.mp4
+
 
 
 #### Week08&09
-为了使模型变得更美观，我绘制了镭射切割图。因此诞生了模型2号，但途中还是出现了很多尺寸上的错误，舵机的位置放置不够高。不断调整下，最终成品模型3号完成了。在调试好的模型3号的完整电路电路中加入灯带。    
+To make the model more aesthetically pleasing, I drew up laser cutouts. Thus was born Model Two, but along the way there were many dimensional errors and the servos were not placed high enough. With a lot of adjustments, the finished Model 3 was finally completed. Adding the light strip to the complete circuitry of the debugged Model Three.
+<h3 align="center">
+ <img src="https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Physical%20model/IMG_7661.jpg" width="50%" height="50%"> 
+</h3>
+<h3 align="center">
+ <img src="https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Physical%20model/F0AECDAA-344A-4AA7-A4D6-3FD656DC7B09-5026-000003B98F624C3A.JPG" width="50%" height="50%"> 
+</h3>
 <h3 align="center">
  <img src="https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Arduino/Circuit%20diagram.jpg" width="50%" height="50%"> 
 </h3>
- 我用3D打印制作了参与者需要移动的棋子。        
-      
+ I used 3D printing to create the pieces that the participants needed to move.        
+<h3 align="center">
+ <img src="https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Physical%20model/IMG_7871.jpg" width="50%" height="50%"> 
+</h3>  
+              
 #### Week10
-最后一周被用来拍摄视频、剪辑视频和撰写论文。
+The final week was used to shoot the video, edit it and write the essay.
 
-谢谢你的观看
+Thank you for watching.😊
