@@ -1,5 +1,5 @@
 <h3 align="center">
-  <img src="https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg" width="50%" height="50%">
+ [![Watch the Video](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg)](https://youtu.be/ViRgSTNtf5M)
 </h3>
 
 # “X”-MSc-Advanced-Project      
@@ -7,6 +7,7 @@ FAN SHU 20011098
           
 🔗：            
 * [Github for Advanced Project](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project)
+Watch the Video
 * [![Watch the Video](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg)](https://youtu.be/ViRgSTNtf5M)     
                                                  
 ## Concept
