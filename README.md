@@ -24,4 +24,33 @@ The project "X" aims to visualise the gender dilemma faced by robots, with a bea
 [![Watch the Video](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg)](https://youtu.be/ViRgSTNtf5M)     
                      
 ## Iterative Development Blog
-#### Week01
+#### Week01&02&03
+After the tutorial with Hadeel, I decided on the direction of my research on gender in robotics. I spent the first three weeks reading papers on this topic, trying to find my own research direction by pulling from existing research directions. I found 10 respondents and invited them to fill in my questionnaire.
+<img width="665" alt="截屏2022-11-21 10 58 19" src="https://user-images.githubusercontent.com/91974159/203123618-2fd27c46-a817-4984-b1c5-b54bf42bfee9.png" width="50%" height="50%">   
+                    
+After a lot of brainstorming and trial and error, I finally decided to focus on the "balance" of the device, and Hadeel recommended the PID algorithm and the accelerometer. That is how most robots self-balance.
+
+#### Week04&05.     
+During these two weeks I started writing the code and built the first simple Model One. With constant debugging it worked successfully.        
+![IMG_7215](https://user-images.githubusercontent.com/91974159/203124831-f42bdf25-08fb-4203-bd34-71feb068f60a.jpg)
+The interaction method bothered me. At first I envisaged a solution with a servo motor picking the ball on the beam to break the balance itself. The user could control this by sliding a resistor. But the completed circuit didn't work as perfectly as I thought it would. I started thinking about whether I could develop from the existing code to find out what was possible.                  
+I planned to add another ultrasonic sensor, which would use the distance it sensed when an object was placed in front of it to prompt the servo motor to move until the distance between the ball on the beam and the ultrasonic sensor was also maintained at the same level before the motor would stop moving. If the user flicks the ball directly by hand, the ball will struggle to regain its balance, just as it did with the previous Model One.    
+https://user-images.githubusercontent.com/91974159/203125807-27fbf417-9a35-4805-841d-7684c1c4724d.mp4
+                             
+#### Week06&07 
+为了增强用户的五官感受，我决心为装置制作一些画面。我并不想将机器人已特别直接的方式呈现。因此决定采用机器生成的电子水母作为代替。采用style gan3生成的不存在的水母视频。
+https://user-images.githubusercontent.com/91974159/203126459-7c56d604-7eae-4ad5-99dc-90605240df2f.mp4
+                                                        
+整个装置的完整交互概念开始形成了。视频字幕将会引导参与者对电子水母的性别进行猜测。最左侧为公，最右侧为母，球停留的位置将会被视为用户的答案，用户可以通过移动装置前方的棋子来影梁倾斜的角度，以使得球停在他们理想的位置。当然结果可能是不尽如人意的。     
+部分用户在尝试之后，希望可以在视频与实体装置之间能有一个互动的反应，故而我运用touch designer作为桥梁，通过黏贴在水平梁结构上的水平仪提供串口数据，用此数据驱动视频发生扭曲和像素化。
+
+
+#### Week08&09
+为了使模型变得更美观，我绘制了镭射切割图。因此诞生了模型2号，但途中还是出现了很多尺寸上的错误，舵机的位置放置不够高。不断调整下，最终成品模型3号完成了。在调试好的模型3号的完整电路电路中加入灯带。    
+![Circuit diagram](https://user-images.githubusercontent.com/91974159/203124033-38e42f62-1938-42f6-8903-23974646b835.jpg)
+ 我用3D打印制作了参与者需要移动的棋子。        
+      
+#### Week10
+最后一周被用来拍摄视频、剪辑视频和撰写论文。
+
+谢谢你的观看
