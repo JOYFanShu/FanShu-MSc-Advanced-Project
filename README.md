@@ -39,7 +39,11 @@ During these two weeks I started writing the code and built the first simple Mod
 </h3>
                  
 The interaction method bothered me. At first I envisaged a solution with a servo motor picking the ball on the beam to break the balance itself. The user could control this by sliding a resistor. But the completed circuit didn't work as perfectly as I thought it would. I started thinking about whether I could develop from the existing code to find out what was possible.                  
-I planned to add another ultrasonic sensor, which would use the distance it sensed when an object was placed in front of it to prompt the servo motor to move until the distance between the ball on the beam and the ultrasonic sensor was also maintained at the same level before the motor would stop moving. If the user flicks the ball directly by hand, the ball will struggle to regain its balance, just as it did with the previous Model One.    
+I planned to add another ultrasonic sensor, which would use the distance it sensed when an object was placed in front of it to prompt the servo motor to move until the distance between the ball on the beam and the ultrasonic sensor was also maintained at the same level before the motor would stop moving. If the user flicks the ball directly by hand, the ball will struggle to regain its balance, just as it did with the previous Model One.   
+
+https://user-images.githubusercontent.com/91974159/203129030-f596dd86-e5fa-42dc-bd8c-cc4acb263dbf.mp4
+
+ 
                              
 #### Week06&07 
 为了增强用户的五官感受，我决心为装置制作一些画面。我并不想将机器人已特别直接的方式呈现。因此决定采用机器生成的电子水母作为代替。采用style gan3生成的不存在的水母视频。
