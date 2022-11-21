@@ -21,7 +21,7 @@ The project "X" aims to visualise the gender dilemma faced by robots, with a bea
 3. When the angle of the beam reaches a certain value, the video will be distorted and glitched.   
                               
 *Watch the Video*                              
-* [![Watch the Video](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg)](https://youtu.be/ViRgSTNtf5M)     
+[![Watch the Video](https://github.com/JOYFanShu/FanShu-MSc-Advanced-Project/blob/main/Cover.jpg)](https://youtu.be/ViRgSTNtf5M)     
                      
 ## Iterative Development Blog
-### Week01
+#### Week01
